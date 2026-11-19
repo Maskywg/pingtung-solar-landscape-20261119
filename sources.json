@@ -160,7 +160,7 @@
       "本頁查核 2026-11-19",
       "https://www.e-info.org.tw/copyright",
       "圖片授權",
-      "本站兩張李育琴攝影依 CC BY-NC-ND 4.0 使用，未裁切、調色或覆字；不含第三方圖片。"
+      "本站八張李育琴攝影依 CC BY-NC-ND 4.0 使用，未裁切、調色或覆字；不含第三方圖片。"
     ],
     [
       "geo1",
@@ -177,6 +177,62 @@
       "https://pingtung.fun-taiwan.com/fnf-Item.aspx?pid=U20170914095249",
       "地點資料",
       "用於濕地代表點，非專區邊界。"
+    ],
+    [
+      "grid-photo",
+      "環境資訊中心｜光采濕地微電網影像",
+      "2016-05-30",
+      "https://www.e-info.org.tw/node/115700",
+      "歷史現場照片",
+      "李育琴攝影；水域與架高設施，非今日營運狀態。"
+    ],
+    [
+      "floating-photo",
+      "環境資訊中心｜屏東滯洪池浮動型光電影像",
+      "2018-11-05",
+      "https://www.e-info.org.tw/node/214805",
+      "歷史現場照片",
+      "李育琴攝影；圖說未詳列鄉鎮，不推定為佳冬外海案場。"
+    ],
+    [
+      "dongpian-photo",
+      "環境資訊中心｜東片社區公民電廠合作社",
+      "2024-01-23",
+      "https://www.e-info.org.tw/node/238395",
+      "社區現場照片",
+      "李育琴攝影；社區背景及創立大會，不作為屋頂電廠已完工的證明。"
+    ],
+    [
+      "linbian-area",
+      "僑委會｜光采濕地微型電網歷史介紹",
+      "2014-12-01",
+      "https://www.ocac.gov.tw/OCAC/Pages/Detail.aspx?nodeid=345&pid=28128",
+      "歷史官方介紹",
+      "當時記載7公頃高架光電板下空間；不是2026年測繪或今日園區全域面積。"
+    ],
+    [
+      "market-area",
+      "經濟日報｜西市場屋頂綠電面積",
+      "2026-03-11",
+      "https://money.udn.com/money/story/5612/9373255",
+      "新聞採訪",
+      "記載屋頂綠電面積1,154.95平方公尺；不是市場基地面積。"
+    ],
+    [
+      "jiadong-area",
+      "中央社／TVBS｜佳冬試驗設施規模與業者說法",
+      "2025-07-07",
+      "https://news.tvbs.com.tw/life/2924635",
+      "新聞採訪／業者說法",
+      "業者受訪稱外圍堰及浮台總面積16萬平方公尺，與縣府所述基座長寬口徑不同，原配置圖待核。"
+    ],
+    [
+      "farm-voice",
+      "公視／環境資訊中心｜農民談農電共生",
+      "2025-03-28",
+      "https://e-info.org.tw/node/241007",
+      "農民採訪",
+      "屏東崁頂農民劉秀娥談自建光電網室的生計、種植及維運經驗；不將個人經驗推及所有農電案。"
     ]
   ],
   "cases": [
@@ -202,7 +258,15 @@
         "linbian",
         "policy"
       ],
-      "photo": "https://tccip.ncdr.nat.gov.tw/ark_2025_case_one.aspx?case_id=FL01"
+      "photo": "https://tccip.ncdr.nat.gov.tw/ark_2025_case_one.aspx?case_id=FL01",
+      "area": {
+        "label": "歷史介紹約7公頃",
+        "meaning": "2014年所述高架光電板下空間",
+        "note": "約70,000平方公尺。不同年代對園區、承租土地與板下空間的計算不同；未取得2026年完整界址與面板覆蓋面積，不能當作現況。",
+        "refs": [
+          "linbian-area"
+        ]
+      }
     },
     {
       "id": "townan",
@@ -227,7 +291,15 @@
         "townannew",
         "policy"
       ],
-      "photo": "https://www.inaenergy.com.tw/news.php"
+      "photo": "https://www.inaenergy.com.tw/news.php",
+      "area": {
+        "label": "第三期約12.33公頃",
+        "meaning": "歷史申請開發面積",
+        "note": "原索引記載123,256.18平方公尺、56筆土地；僅第三期，不是林邊全鄉或鎮安各期總面積。原PDF全文、函號與後續變更仍待核。",
+        "refs": [
+          "townan"
+        ]
+      }
     },
     {
       "id": "stone",
@@ -254,7 +326,15 @@
         "bat",
         "stonereply"
       ],
-      "photo": "https://www.e-info.org.tw/node/229756"
+      "photo": "https://www.e-info.org.tw/node/229756",
+      "area": {
+        "label": "租用104公頃／原規劃設施40公頃",
+        "meaning": "2021年報導的生利能源租地與規劃",
+        "note": "分別約1,040,000與400,000平方公尺。租地、原規劃、實際施工及遺址範圍不同；不表示104公頃全鋪面板或全遭毀損，也不套用周邊不同業者。",
+        "refs": [
+          "stone"
+        ]
+      }
     },
     {
       "id": "fenglin",
@@ -278,7 +358,15 @@
         "fenglin",
         "fengsoil"
       ],
-      "photo": "https://www.cna.com.tw/news/aloc/202601120265.aspx"
+      "photo": "https://www.cna.com.tw/news/aloc/202601120265.aspx",
+      "area": {
+        "label": "約2公頃",
+        "meaning": "2026年1月受訪承包商所述案場面積",
+        "note": "約20,000平方公尺。尚未取得核定地籍及實際整地範圍，不能只由約數判定免環評，也不能當成實測值。",
+        "refs": [
+          "fenglin"
+        ]
+      }
     },
     {
       "id": "jiadong",
@@ -303,7 +391,16 @@
         "factcheck",
         "water"
       ],
-      "photo": "https://news.pts.org.tw/article/760075"
+      "photo": "https://news.pts.org.tw/article/760075",
+      "area": {
+        "label": "基座長寬換算約3.45公頃",
+        "meaning": "縣府受訪所述383公尺×90公尺",
+        "note": "相乘為34,470平方公尺（約3.447公頃），是概略矩形尺寸換算，非實測淨面積。業者另稱外圍堰及浮台總範圍約16公頃；未取得配置圖，無法核對兩種口徑。兩者均非污染、漂流或受害海域面積。",
+        "refs": [
+          "jiadong",
+          "jiadong-area"
+        ]
+      }
     },
     {
       "id": "market",
@@ -327,7 +424,198 @@
         "market",
         "law"
       ],
-      "photo": "https://www.tcnews.com.tw/news/item/30161.html"
+      "photo": "https://www.tcnews.com.tw/news/item/30161.html",
+      "area": {
+        "label": "屋頂綠電約0.1155公頃",
+        "meaning": "2026年3月報導所稱屋頂綠電面積",
+        "note": "原數字1,154.95平方公尺，約349坪。是屋頂光電利用面積，非市場建築基地；原報導未附配置圖，不推定為面板實測淨面積。",
+        "refs": [
+          "market-area"
+        ]
+      }
+    }
+  ],
+  "photos": [
+    {
+      "id": "stone-site",
+      "group": "坡地與爭議",
+      "title": "枋寮新開村：光電施工與裸露坡面",
+      "place": "枋寮鄉新開村",
+      "date": "2021.03.02",
+      "source": "stone",
+      "url": "https://www.e-info.org.tw/node/229756",
+      "caption": "施工區內的面板、整地裸土與周邊植被同時入鏡。照片可記錄地表擾動，不能單憑影像判定水保不合格或災害成因。",
+      "file": "assets/stone-site.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "stone-inspection",
+      "group": "坡地與爭議",
+      "title": "石頭營：施工區與遺跡的交界",
+      "place": "枋寮鄉石頭營周邊",
+      "date": "2021.03.02",
+      "source": "stone",
+      "url": "https://www.e-info.org.tw/node/229756",
+      "caption": "現勘人員站在施工坡面與二戰遺跡附近。文資調查範圍、地下構造與施工安全需要對照核定圖說。",
+      "file": "assets/stone-inspection.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "stone-protest",
+      "group": "坡地與爭議",
+      "title": "枋寮：地方居民表達反對訴求",
+      "place": "枋寮石頭營光電爭議現場",
+      "date": "2021.03.02",
+      "source": "stone",
+      "url": "https://www.e-info.org.tw/node/229756",
+      "caption": "居民以布條表達對山林及文化地景的關切。布條文字是抗議者的主張，不作為損害已獲認定的證據。",
+      "file": "assets/stone-protest.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "stone-bunker",
+      "group": "坡地與爭議",
+      "title": "石頭營：植被包圍的碉堡",
+      "place": "枋寮鄉石頭營",
+      "date": "2021.03.02",
+      "source": "stone",
+      "url": "https://www.e-info.org.tw/node/229756",
+      "caption": "地下碉堡與周邊植被構成文化地景。這是保存議題的現場記錄，不代表全區遺址都已毀損。",
+      "file": "assets/stone-bunker.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "linbian-grid",
+      "group": "濕地與水面",
+      "title": "林邊光采濕地：水域與微電網設施",
+      "place": "林邊鄉光采濕地",
+      "date": "2016.05.30",
+      "source": "grid-photo",
+      "url": "https://www.e-info.org.tw/node/115700",
+      "caption": "水面、架高設施與光電共同出現在濕地示範場域。此為歷史影像，不表示今天的設備、營運或水質狀況。",
+      "file": "assets/linbian-grid.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "floating-pond",
+      "group": "濕地與水面",
+      "title": "屏東滯洪池：浮動型太陽光電",
+      "place": "屏東滯洪池；原圖說未詳列鄉鎮",
+      "date": "2018.11.05",
+      "source": "floating-photo",
+      "url": "https://www.e-info.org.tw/node/214805",
+      "caption": "原報導圖說標示為屏東滯洪池浮動型光電。這不是2025年佳冬外海浮台風災照片，也不把未明示的位置補猜成特定案場。",
+      "file": "assets/floating-pond.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "dongpian-village",
+      "group": "社區與屋頂",
+      "title": "內埔東片村：屋頂光電規劃的社區背景",
+      "place": "內埔鄉東片村",
+      "date": "2024.01.23",
+      "source": "dongpian-photo",
+      "url": "https://www.e-info.org.tw/node/238395",
+      "caption": "原報導記錄東片村農村地景，並談未來盤點社區屋頂及農業設施。照片是社區背景，不是屋頂光電已完工的證明。",
+      "file": "assets/dongpian-village.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    },
+    {
+      "id": "dongpian-coop",
+      "group": "社區與屋頂",
+      "title": "東片社區：公民電廠合作社創立大會",
+      "place": "內埔鄉東片社區",
+      "date": "2024.01.23",
+      "source": "dongpian-photo",
+      "url": "https://www.e-info.org.tw/node/238395",
+      "caption": "報導記錄2024年1月20日合作社創立大會。此圖呈現地方參與及組織形式，不能當作電廠已完工、併網或產生收益的證明。",
+      "file": "assets/dongpian-coop.jpg",
+      "author": "李育琴／環境資訊中心",
+      "license": "CC BY-NC-ND 4.0",
+      "time_note": "日期為報導刊登日；拍攝日未另載者不推定同日"
+    }
+  ],
+  "voices": [
+    {
+      "name": "廖清山、宋銘德",
+      "identity": "楓林部落光電自救會會長／楓林村長（報導當時）",
+      "place": "獅子鄉楓林村",
+      "date": "2026-01-12",
+      "theme": "部落安全與共同決定",
+      "position": "反對此選址",
+      "summary": "廖清山反對在部落上方坡地設置光電，擔心居住安全與地方生活受到影響；宋銘德另提及村民對立，以及過去部落會議已表達反對。",
+      "boundary": "這是受訪地方人士的陳述；泥水來源與致災因果另需調查，也不能推定所有族人意見一致。",
+      "refs": [
+        "fenglin"
+      ]
+    },
+    {
+      "name": "佳冬居民（報導未具名）",
+      "identity": "公視現場受訪居民",
+      "place": "佳冬沿海",
+      "date": "2025-07-09",
+      "theme": "靠海維生與清除責任",
+      "position": "擔心漁業及環境",
+      "summary": "受訪居民擔心浮台漂流物若處理不好，會影響依海維生的生活與養殖環境。這份不安與要求妥善清理的聲音，應與實際水質調查一併閱讀。",
+      "boundary": "不是已證實的水質污染、魚損或食安結論；本頁也沒有全體漁民的意見調查。",
+      "refs": [
+        "jiadong",
+        "water"
+      ]
+    },
+    {
+      "name": "劉秀娥",
+      "identity": "自建結合光電網室的農民",
+      "place": "屏東縣崁頂鄉",
+      "date": "2025-03-28",
+      "theme": "農民自主經營與退休生計",
+      "position": "個人有收益，也面對耕作限制",
+      "summary": "她說明以自有投入與貸款建置光電網室，讓務農之外增加較穩定的收入；也談到遮光、濕度、作物選擇與維運的挑戰，對把農地租給光電業者持保留態度。",
+      "boundary": "這是特定農戶的經驗，不能當作所有農電共生都成功、都失敗，或各種設置今日都可申請的證明。",
+      "refs": [
+        "farm-voice"
+      ]
+    },
+    {
+      "name": "陳秀幸",
+      "identity": "屏東有機農民、合作社監事（報導當時）",
+      "place": "內埔東片社區的公民電廠倡議",
+      "date": "2024-01-23",
+      "theme": "屋頂發電與公共收益",
+      "position": "參與社區公民電廠",
+      "summary": "她期待讓地方居民參與自主再生能源，並使收入產生公共效益；從住家到集貨場、農舍等既有屋頂，都是當時合作社希望盤點的方向。",
+      "boundary": "這是當時的參與及規劃主張，不等於所有案場已建置，也不表示她支持所有地面型或坡地光電。",
+      "refs": [
+        "dongpian-photo"
+      ]
+    },
+    {
+      "name": "林炫耀",
+      "identity": "文史工作者、捍衛石頭營聯盟召集人（報導當時）",
+      "place": "枋寮石頭營保存行動",
+      "date": "2021-03-02／2021-04-28",
+      "theme": "文資完整性與水保資訊公開",
+      "position": "要求保存與開發受檢視",
+      "summary": "他主張把碉堡、坑道及周邊文化地景整體調查，並要求水保計畫可供公眾比對實際施工。爭點不只在保留單棟構造物，而是整體土地如何使用。",
+      "boundary": "這是地方保存行動者的主張；個案是否合法、工程是否造成特定毀損，仍須原始審查及鑑定資料。",
+      "refs": [
+        "stone",
+        "stonesoil"
+      ]
     }
   ]
 }
