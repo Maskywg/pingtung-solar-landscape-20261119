@@ -1,0 +1,27 @@
+# 屏東種電現場
+
+繁體中文靜態互動網頁，包含六個選例、互動地圖、兩張授權實景照片、環評與水保對照，以及22筆參考來源。
+
+## 預覽與部署
+
+直接開啟 index.html 即可閱讀；互動地圖底圖需要網路。也可用任何靜態網站伺服器預覽。本資料夾的 index.html、style.css、app.js、data.js、sources.json、assets/ 必須一起保留。
+
+GitHub Pages：從 main 分支根目錄部署，不需安裝或建置。正式網址：https://maskywg.github.io/pingtung-solar-landscape-20261119/
+
+若改用其他網址，請同步修改 index.html 的 canonical、og:url、og:image、twitter:image，後兩者必須指向正式 HTTPS 圖片網址。
+
+## 閱讀限制
+
+查核日為2026-11-19。這是選例整理，不是全縣案場普查；統計採2024年底官方口徑，不是即時總量。地圖點位是區域或公共地標代表點，不是案場地籍、開發面積或污染範圍。歷史報導不代表目前仍在施工、仍停工或仍維持同一許可狀態。
+
+林邊鎮安第三期的免環評資訊來自官方PDF的搜尋索引摘錄；本次無法完整取得原PDF，原函日期、函號與變更待核。其他未取得環評、水保原文件者已明確註記，不推定違法。現行法律摘要與舊案歷史狀態分開呈現。
+
+## 圖片與第三方權利
+
+assets/stone-site.jpg 與 assets/stone-bunker.jpg：攝影李育琴，環境資訊中心2021-03-02〈屏東二戰遺跡遭光電工程破壞 民眾訴求「石頭營」文資應完整保存〉。原文：https://www.e-info.org.tw/node/229756 。本站保留原比例，沒有裁切、調色或覆字，依網站 CC BY-NC-ND 4.0 非商業使用條款：https://www.e-info.org.tw/copyright 。第三方提供圖片不在此授權範圍內。商用或改作須另洽權利人。
+
+首頁概念插畫、分享預覽圖為本網頁自行排版的概念圖，非實景或衛星影像。Leaflet 1.9.4 授權見 assets/LEAFLET-LICENSE.txt；底圖 © OpenStreetMap contributors。更多案例照片及影音以原始新聞連結提供，未將未授權圖片打包重製。
+
+## 內容維護
+
+data.js 提供互動資料；sources.json 為可下載查核清單；環評表格與來源亦保留於初始HTML，無JavaScript仍可閱讀。內容修改後，應同步更新兩份資料與HTML靜態表格、日期及分享圖。
